@@ -8,18 +8,18 @@ font-family:'ubuntu',sans-serif;
 }
 
 body{
-    background:linear-gradient(to right, #516ad6,#1f50f3);
+    background:#ffffff;
 }
 
 .resume{
 width:800px;
-background:hwb(228 87% 1%);
+background:#bdf3fa;
 margin: 25px auto;
 display:flex;
 }
 /*black side*/
 .left{
-    background-color:#2b3441;
+    background-color:#87e6f7;
     width:300px;
     padding:0 20px;
 }
@@ -53,7 +53,7 @@ display:flex;
     text-transform: uppercase;
     letter-spacing:2px;
     padding-bottom:10px;
-    color:#5e82ec;
+    color:#010207;
     position:relative;
     text-align: left;
     margin-bottom: 15px;
@@ -64,14 +64,14 @@ display:flex;
     top:35px;
     width:230px;
     height:3px;
-    background: #5555d1;
+    background: #010107;
 }
 .left .icon{
     font-size:20px;
-    color:#4a68f0
+    color:#000000
 }
 .left .text{
-    color:#4d50ec;
+    color:#030314;
    
     font-size:16px;
 }
@@ -85,7 +85,7 @@ display:flex;
 .contact .li_wrap .icon{
     width:50px;
     height:50px;
-    background:#fff;
+    background:hwb(200 98% 1%);
     border-radius:15px;
     display:flex;
     justify-content: center;
@@ -95,7 +95,7 @@ display:flex;
 .contact .li_wrap .text{
    width: calc(100% - 50px);
     word-break: break-word;
-    color:#fff;
+    color:#050101;
 
 }
 .skills ul,
@@ -114,7 +114,7 @@ display:flex;
    flex-direction: column; 
    align-items: center;
    justify-content:center;
-   border:2px solid #fff;
+   border:5px solid #ffffff;
 }
 
 .skills .li_wrap .text,
@@ -129,29 +129,29 @@ display:flex;
    color:#fff;
 }
 .hobbies .li_wrap:hover{
-    background:#fff;
+    background:#f6f8f8;
 }
 .hobbies .li_wrap:hover .icon,
 .hobbies .li_wrap:hover .text{
-   color:#9153c9;
+   color:#d7edf3;
 }
 
 .header{
-    background: #2b3441;
+    background: #87e6f7;
     padding:15px 30px;
-    color:#836bdb;
+    color:#010b0f;
     height: 280px;
 }
 .header .name{
    font-size:52px;
    text-transform:uppercase;
    font-weight:700;
-    color:#677fe9
+    color:#000203
 }
 .header .role{
     font-weight:800;
     font-size:20px;
-    color:#9a93f3
+    color:#3578b8
 }
 .header .about{
    margin-top: 10px;
@@ -160,7 +160,7 @@ display:flex;
 
 .right_inner{
     padding: 30px;
-    color:#5c12d3
+    color:#3578b8
 }
 
 .right_inner .edu{
@@ -182,9 +182,7 @@ display:flex;
 }
 .right_inner .li_wrap .date{
 width :125px;
-color:#312ec2;
-font-weight: 700;
-
+color:#3578b8
 }
 .right_inner .li_wrap .info{
     width: calc(100% - 125px);
@@ -195,7 +193,7 @@ font-weight: 700;
     text-transform:uppercase;
     font-weight:700;
     letter-spacing:2px;
-    color:#7844cc;
+    color:#3578b8
 }
 .right_inner .li_wrap .info_cont{
 margin-top: 15px;
@@ -207,8 +205,7 @@ margin-top: 15px;
     left:0;
     width:10px;
     height:10px;
-    background: #7844cc;
-    border-radius: 50%;
+    background: #000000
 }
 .right_inner .li_wrap .info:after{
     content: "";
@@ -217,6 +214,6 @@ margin-top: 15px;
     left:0;
     width:2px;
     height:90%;
-    background: #7844cc;
+    background: #1b7e9c;
 }
 
